@@ -15,6 +15,9 @@
 		041C236C1ED44264006263A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C236A1ED44264006263A8 /* LaunchScreen.storyboard */; };
 		041C23771ED44264006263A8 /* BorderButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C23761ED44264006263A8 /* BorderButtonViewTests.m */; };
 		041C23821ED44264006263A8 /* BorderButtonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C23811ED44264006263A8 /* BorderButtonViewUITests.m */; };
+		041C23911ED4429F006263A8 /* BJButtonsBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C23901ED4429F006263A8 /* BJButtonsBorderView.m */; };
+		041C23941ED442C7006263A8 /* BJRoundBorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C23931ED442C7006263A8 /* BJRoundBorderButton.m */; };
+		041C23971ED442F9006263A8 /* MaskButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C23961ED442F9006263A8 /* MaskButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		041C237D1ED44264006263A8 /* BorderButtonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorderButtonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C23811ED44264006263A8 /* BorderButtonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderButtonViewUITests.m; sourceTree = "<group>"; };
 		041C23831ED44264006263A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041C238F1ED4429F006263A8 /* BJButtonsBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJButtonsBorderView.h; sourceTree = "<group>"; };
+		041C23901ED4429F006263A8 /* BJButtonsBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJButtonsBorderView.m; sourceTree = "<group>"; };
+		041C23921ED442C7006263A8 /* BJRoundBorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRoundBorderButton.h; sourceTree = "<group>"; };
+		041C23931ED442C7006263A8 /* BJRoundBorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRoundBorderButton.m; sourceTree = "<group>"; };
+		041C23951ED442F9006263A8 /* MaskButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskButton.h; sourceTree = "<group>"; };
+		041C23961ED442F9006263A8 /* MaskButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				041C23601ED44264006263A8 /* AppDelegate.m */,
 				041C23621ED44264006263A8 /* ViewController.h */,
 				041C23631ED44264006263A8 /* ViewController.m */,
+				041C238F1ED4429F006263A8 /* BJButtonsBorderView.h */,
+				041C23901ED4429F006263A8 /* BJButtonsBorderView.m */,
+				041C23921ED442C7006263A8 /* BJRoundBorderButton.h */,
+				041C23931ED442C7006263A8 /* BJRoundBorderButton.m */,
+				041C23951ED442F9006263A8 /* MaskButton.h */,
+				041C23961ED442F9006263A8 /* MaskButton.m */,
 				041C23651ED44264006263A8 /* Main.storyboard */,
 				041C23681ED44264006263A8 /* Assets.xcassets */,
 				041C236A1ED44264006263A8 /* LaunchScreen.storyboard */,
@@ -273,6 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041C23941ED442C7006263A8 /* BJRoundBorderButton.m in Sources */,
+				041C23971ED442F9006263A8 /* MaskButton.m in Sources */,
+				041C23911ED4429F006263A8 /* BJButtonsBorderView.m in Sources */,
 				041C23641ED44264006263A8 /* ViewController.m in Sources */,
 				041C23611ED44264006263A8 /* AppDelegate.m in Sources */,
 				041C235E1ED44264006263A8 /* main.m in Sources */,
@@ -507,6 +525,7 @@
 				041C23881ED44264006263A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041C23891ED44264006263A8 /* Build configuration list for PBXNativeTarget "BorderButtonViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +534,7 @@
 				041C238B1ED44264006263A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041C238C1ED44264006263A8 /* Build configuration list for PBXNativeTarget "BorderButtonViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +543,7 @@
 				041C238E1ED44264006263A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
